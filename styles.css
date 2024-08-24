@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d881c7;
+}
+
+.login-container, .quiz-container, #result-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(213, 204, 204, 0.1);
+    text-align: center;
+}
+
+.login-container {
+    width: 350px;
+}
+
+.quiz-container {
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(222, 211, 220);
+}
+
+#next-btn, #prev-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#progress {
+    margin-top: 20px;
+}
+
+#question-count {
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #070509;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: rgb(218, 222, 230);
+    margin: 5px;
+    font-size: 15px;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #d9d4de;
+    border-radius: 5px;
+    background-color: rgb(32, 45, 219);
+    font-size: 17px;
+    cursor: pointer;
+    box-sizing: 10px ;
+    color: rgb(246, 242, 242);
+    margin: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(179, 179, 190);
+}
+
+button:active {
+    background-color: rgb(201, 202, 222);
+}
+
+#choices {
+    list-style-type: none;
+    padding: 0;
+}
+
+#choices li {
+    margin-bottom: 10px;
+}
+
+#choices button {
+    background-color: rgb(239, 201, 228);
+    border: 1px solid #151713;
+    border-radius: 5px;
+    color: #000;
+    padding: 10px;
+    cursor: pointer;
+    width: 60%;
+    transition: background-color 0.3s ease;
+}
+
+#choices button:hover {
+    background-color: #5bc0de; 
+}
+
+#choices button:active {
+    background-color: #31b0d5; 
+}
+
