@@ -1,12 +1,8 @@
-# Project Overview
-
-**Project Name:** Quiz Application
-
-**Intern Name:** Adhi Harika
+**Name:** Adhi Harika
 
 **Company:** CodeTech IT Solutions
 
-**Intern ID:** CT08DS6584
+**ID:** CT08DS6584
 
 **Domain:** Frontend Web Development
 
