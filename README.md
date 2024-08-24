@@ -8,7 +8,8 @@
 
 **Duration:** August to September 2024
 
-## Project Description
+## Overview of the Project
+###Project Descriptive
 The Quiz Application project focuses on developing an interactive and engaging web-based platform for users to participate in quizzes. The primary goal is to create a user-friendly frontend that allows users to answer questions, receive immediate feedback, and track their performance.
 
 ## Features of the Quiz Application
